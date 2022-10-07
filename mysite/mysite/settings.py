@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'trazabilidad.apps.TrazabilidadConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth', #usuario
